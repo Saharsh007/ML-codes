@@ -1,10 +1,15 @@
 # Bias
+```diff
++ The inability of a machine learning algorithm to capture the true relationship is called bias.   
+```
 - high  bias = low performance on train set , low on dev too = underfitting  
 
 - low bias  = good performance on train set   
 
 # variance
-
+```diff
++ The difference in fits between datasets is called variance
+```
 - high variance  = best performance on train set and very bad on dev = overfitting
 -  Low variance  = better performance on dev set
 

@@ -1,0 +1,54 @@
+CONSTANTS 
+y_hat = tf.constant(36, name='y_hat')            # Define y_hat constant. Set to 36.
+
+
+VARIABLE
+loss = tf.Variable((y - y_hat)**2, name='loss')  # Create a variable for the loss
+
+
+INIT
+init = tf.global_variables_initializer()         # When init is run later (session.run(init)),
+
+
+SESSION
+with tf.Session() as session:                    # Create a session and print the output
+    session.run(init)                            # Initializes the variables
+    print(session.run(loss))                     # Prints the loss
+
+
+SESSION WITHOUT USING "with"
+session.run(..)
+session.close()  	#important to close session
+
+
+PLACEHOLDERS 
+x = tf.placeholder(tf.int64, name = 'x',shape = (1,2))
+
+
+FEED PLACEHOLDER VALUES DURING SESSION RUN
+print(sess.run(2 * x, feed_dict = {x: [10,11] }))
+
+#we do this feed_dict only when init = tf.global_variables_initializer()  and there are placeholders.
+that means for this example there must be a placeholder with (name 'x')
+x = tf.placeholder(tf.int64 , name = 'x' , shape = (1,2))
+
+
+ARITHEMETIC
+tf.matmul(a,b) #matrix multiplication
+tf.add(a.b) 	#addition
+
+
+ONE_HOT ENCODING
+tf.one_hot(indices= actual_matrix_to_encode, depth= size_of_indices_matrix , axis = 0)
+#axis = 0 gives the required result
+
+
+INTIALIZE VARIABLES
+W1 = tf.get_variable('W1', shape=[25,12288] , initializer = tf.contrib.layers.xavier_initializer(seed = 1))
+
+
+RELU LAYER : 
+tf.nn.relu( features, name=None)
+
+
+ 

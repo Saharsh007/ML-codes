@@ -7,3 +7,6 @@
 # Nice Regex tutorial - https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
 
 
+
+# Super Amazing tutorial for basics of Machine learning 
+https://www.youtube.com/user/joshstarmer/playlists
