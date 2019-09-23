@@ -18,3 +18,7 @@
 # https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A - check this out , don't know about this yet
 
 # Amazing projects implemented and can be directly used - - https://demo.allennlp.org/reading-comprehension
+
+#FREE SONGS ENGLISH-- https://mp3paw.com/mp3-download
+
+#FREE SONGS HINDI -- https://www.raagsong.info/
